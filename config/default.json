@@ -7,13 +7,17 @@
     "max": 50
   },
   "authentication": {
+    "oauth": {
+      "redirect": "/",
+      "github": {
+        "key": "4efd13f86e7755ab634e",
+        "secret": "b223e15044037d216a4f788022450870f601e4de"
+      }
+    },
     "entity": "user",
     "service": "users",
     "secret": "XogOQlCm5r62RKK9gYd5c81ppU0=",
-    "authStrategies": [
-      "jwt",
-      "local"
-    ],
+    "authStrategies": ["jwt", "local"],
     "jwtOptions": {
       "header": {
         "typ": "access"
